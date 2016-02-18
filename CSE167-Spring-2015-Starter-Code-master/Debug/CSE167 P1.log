@@ -1,0 +1,44 @@
+﻿Build started 5/15/2015 11:31:55 AM.
+     1>Project "C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\CSE167 P1.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Cube.vcxproj, PA1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Window.cpp
+         Window.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Debug\CSE167 P1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Debug\CSE167 P1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Debug\CSE167 P1.lib" /MACHINE:X86 "Debug\CSE167 P1.res"
+         Debug\Camera.obj
+         Debug\Color.obj
+         Debug\Cube.obj
+         Debug\Cylinder.obj
+         Debug\Drawable.obj
+         Debug\DrawData.obj
+         Debug\Geode.obj
+         Debug\GLee.obj
+         Debug\Globals.obj
+         Debug\Group.obj
+         Debug\House.obj
+         Debug\Light.obj
+         Debug\main.obj
+         Debug\Material.obj
+         Debug\MathTestBench.obj
+         Debug\Matrix4.obj
+         Debug\MatrixTransform.obj
+         Debug\Node.obj
+         Debug\OBJObject.obj
+         Debug\Rasterizer.obj
+         Debug\Robot.obj
+         Debug\Shader.obj
+         Debug\Skybox.obj
+         Debug\Sphere.obj
+         Debug\Terrain.obj
+         Debug\Texture.obj
+         Debug\UpdateData.obj
+         Debug\Vector3.obj
+         Debug\Vector4.obj
+         Debug\Window.obj
+         CSE167 P1.vcxproj -> C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Debug\CSE167 P1.exe
+     1>Done Building Project "C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\CSE167 P1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09

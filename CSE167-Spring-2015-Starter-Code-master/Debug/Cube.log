@@ -1,0 +1,40 @@
+﻿Build started 3/31/2015 2:08:43 PM.
+     1>Project "C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Cube.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\glut\glut-3.7.6-bin" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cube.cpp Light.cpp Material.cpp Sphere.cpp Texture.cpp Window.cpp main.cpp
+         main.cpp
+         Window.cpp
+         Texture.cpp
+     1>c:\users\steveny\downloads\cse167-spring-2015-starter-code-master\cse167-spring-2015-starter-code-master\texture.cpp(88): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\steveny\downloads\cse167-spring-2015-starter-code-master\cse167-spring-2015-starter-code-master\texture.cpp(105): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+         Sphere.cpp
+         Material.cpp
+         Light.cpp
+         Cube.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\Cube.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\glut\glut-3.7.6-bin" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\Cube.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\Cube.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         Debug\Camera.obj
+         Debug\Color.obj
+         Debug\Cube.obj
+         Debug\Light.obj
+         Debug\Material.obj
+         Debug\Matrix4.obj
+         Debug\Drawable.obj
+         Debug\DrawData.obj
+         Debug\Sphere.obj
+         Debug\Texture.obj
+         Debug\UpdateData.obj
+         Debug\Vector3.obj
+         Debug\Vector4.obj
+         Debug\Window.obj
+         Debug\Globals.obj
+         Debug\MathTestBench.obj
+         Cube.vcxproj -> C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Debug\Cube.exe
+     1>Done Building Project "C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Cube.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.77

@@ -1,0 +1,31 @@
+﻿Build started 4/28/2015 9:31:11 PM.
+     1>Project "C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\CSE167_PA4.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (CSE167 P1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Release\CSE167_PA4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Release\CSE167_PA4.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Release\CSE167_PA4.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\Color.obj
+         Release\Cube.obj
+         Release\Drawable.obj
+         Release\DrawData.obj
+         Release\Globals.obj
+         Release\House.obj
+         Release\Light.obj
+         Release\main.obj
+         Release\Material.obj
+         Release\MathTestBench.obj
+         Release\Matrix4.obj
+         Release\OBJObject.obj
+         Release\Rasterizer.obj
+         Release\Sphere.obj
+         Release\Texture.obj
+         Release\UpdateData.obj
+         Release\Vector3.obj
+         Release\Vector4.obj
+         Release\Window.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         CSE167_PA4.vcxproj -> C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\Release\CSE167_PA4.exe
+     1>Done Building Project "C:\Users\steveny\Downloads\CSE167-Spring-2015-Starter-Code-master\CSE167-Spring-2015-Starter-Code-master\CSE167_PA4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.01
